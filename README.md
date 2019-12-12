@@ -21,8 +21,10 @@ Ou para ambientes em Wordpress (limitações de acordo com o template, recomenda
 <script src="https://sophie.chat/iframe/iframe-wp.js"></script>
 
 Inserir o HTML no footer ou dentro da tag body e dentro da tag iframe colocar o nome do seu bot
+
+<CODE>
 <div class="janela-modal popup-box chat-popup" id="qnimate" style="display: none;">
-                   <iframe src="https://assistant.sophie.chat/NOMDEDOSEUBOT/Login/GetLogin?login=visitante" frameborder="0" width="100%" height="100%" style="overflow: hidden; border-radius: 0.5em;"></iframe>
+                   <iframe src="https://assistant.sophie.chat/NOMEDOSEUBOT/Login/GetLogin?login=visitante" frameborder="0" width="100%" height="100%" style="overflow: hidden; border-radius: 0.5em;"></iframe>
               </div>            
 
               <div class="bubble-ola" style="display: none;">
@@ -55,5 +57,6 @@ Inserir o HTML no footer ou dentro da tag body e dentro da tag iframe colocar o 
                     <i class="fa fa-times-circle" aria-hidden="true" style="display: none; position: fixed; right: 32px; bottom: 570px;"></i>
                 </p>
               </div>
+              </CODE>
 
 OK Estamos prontos!
